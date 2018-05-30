@@ -18,6 +18,10 @@ namespace LogoReplacement
         public static void Postfix()
         {
             var logo = GameObject.Find("logo-Battletech");
+
+            if (logo == null)
+                return;
+
             var image = logo.GetComponent<Image>();
             image.sprite = Utilities.ImageUtils.LoadSprite(Path.Combine(Patches.ModDirectory, Patches.Settings.LogoPath));
         }
