@@ -1,5 +1,5 @@
 # LogoReplacement
-ModTek mod that replaces the logo on the main screen on launch.
+BattleTech mod that replaces the logo on the main screen on launch with a provided one.
 
 ## Requires
 
