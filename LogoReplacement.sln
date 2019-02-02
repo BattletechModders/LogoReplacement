@@ -5,6 +5,13 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoReplacement", "LogoReplacement\LogoReplacement.csproj", "{2C487E1F-1396-4035-BA08-3D16DE62DF20}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{C2FE0DEF-2D7B-47A2-9688-A81AE3DD4521}"
+	ProjectSection(SolutionItems) = preProject
+		mod.json = mod.json
+		README.md = README.md
+		UNLICENSE = UNLICENSE
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
